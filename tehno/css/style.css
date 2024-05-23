@@ -1,0 +1,43 @@
+* {
+  font-family: Verdana;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: left;
+  gap: 15px;
+}
+/* Стили для таблицы */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Чередование цветов строк */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
